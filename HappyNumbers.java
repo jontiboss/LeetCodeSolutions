@@ -17,7 +17,7 @@ public class HappyNumbers {
 				System.out.println("happy");
 				return true;
 			}
-			//if the number is already in the set, then we know are stuck in a loop
+			//if the number is already in the set, then we are stuck in a loop
 			if(nbrs.contains(n)) {
 				System.out.println("unhappy");
 				return false;
